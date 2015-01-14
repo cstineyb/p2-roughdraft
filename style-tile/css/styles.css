@@ -1,0 +1,151 @@
+/* Set Your Own Margin & Padding */
+body {
+	background-color:#000;
+	background: url("../img/tactile_noise.png") repeat;
+	position: absolute;
+
+}
+
+.container {
+	border-radius: 15px;
+	padding: 40px 10px;
+	width: 100%;
+    max-width: 980px;
+    min-width: 100%;
+    position: relative;
+    margin-left: 5%;
+}
+
+h1, h2, h3, p, em, ul {
+	margin: 0 10px;
+}
+
+p {
+	color: #c8bba6;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1.5;
+
+}
+
+h1 {
+	color: #c8bba6;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+
+}
+
+h2, h3 {
+	color: #c8bba6;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+
+}
+
+
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px;
+	max-width: 80%;
+}
+img	{
+	margin-left: -30px;
+	max-width: 100%;
+}
+div:first-child {
+	margin-left:20px;
+}
+div+em{
+	margin-left: 20px;
+}
+footer h3 {
+	margin-left: 35px;
+}
+ul {
+	color: #e6e6e6;
+	list-style: none;
+	text-indent: -20px;
+}
+li {
+
+	margin: 5px;
+}
+em {
+	color: #e6e6e6;
+	font-size: .75em;
+	font-family: 'Open Sans', sans-serif;;
+	font-weight: 300;
+	line-height: 1.75;
+}
+/*TILES*/
+
+
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	float: left;
+	margin: 10px;
+	height: 75px;
+	width: 75px;
+}
+
+.color-1 {
+	background: #c8bba6;
+
+}
+
+.color-2 {
+	background: #18292d;
+
+}
+.color-3 {
+	background: #c19687;
+
+}
+.color-4 {
+	background: #2e302f;
+
+}
+
+.pattern-1 {
+	background: url("../img/office.png") repeat;
+}
+
+.pattern-2 {
+	background: url("../img/strange_bullseyes.png") repeat;
+}
+
+.pattern-3 {
+	background: url("../img/binding_dark.png") repeat;
+}
+
+/*LINKS*/
+
+
+a:link {
+	color: darkgrey;
+	font-weight: bold;
+	
+}
+
+a:visited {
+	color: #888;
+
+}
+
+a:hover {
+	font-size: 1.10em;
+}
+a {
+	text-decoration: none;
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
