@@ -87,7 +87,10 @@ em {
 .color-4,
 .pattern-1,
 .pattern-2,
-.pattern-3 {
+.pattern-3,
+.imagery-1,
+.imagery-2,
+.imagery-3 {
 	float: left;
 	margin: 10px;
 	height: 75px;
@@ -124,6 +127,17 @@ em {
 	background: url("../img/binding_dark.png") repeat;
 }
 
+.imagery-1 {
+	background: url("../img/binding_dark.png") no-repeat;
+}
+
+.imagery-2 {
+	background: url("../img/binding_dark.png") no-repeat;
+}
+
+.imagery-3 {
+	background: url("../img/binding_dark.png") no-repeat;
+}
 /*LINKS*/
 
 
