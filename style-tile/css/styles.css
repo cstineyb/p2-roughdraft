@@ -128,15 +128,17 @@ em {
 }
 
 .imagery-1 {
-	background: url("../img/binding_dark.png") no-repeat;
+	background: url("../img/fleur.jpg") no-repeat;
+    background-size: 75px 75px;
+
 }
 
 .imagery-2 {
-	background: url("../img/binding_dark.png") no-repeat;
+	background: url("../img/pearls.jpg") no-repeat;
 }
 
 .imagery-3 {
-	background: url("../img/binding_dark.png") no-repeat;
+	background: url("../img/harley.jpg") no-repeat;
 }
 /*LINKS*/
 
